@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:orientation="vertical"
+tools:context=".SignInActivity"
+android:background="@color/colorBackground">
+
+<ImageView
+    android:layout_marginTop="30dp"
+    android:id="@+id/medicento_logo"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    app:srcCompat="@drawable/mdlf"
+    android:layout_gravity="center"
+    android:layout_centerHorizontal="true"
+    android:contentDescription="@string/todo" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:textColor="@color/white"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="30dp"
+        android:layout_above="@id/or"
+        android:gravity="center"
+        android:layout_marginBottom="20dp"
+        android:text="Sign Up With Google"
+        android:background="@drawable/border_curved_red"
+        android:paddingRight="30dp"
+        android:drawableEnd="@drawable/ic_google_plus"
+        />
+
+    <LinearLayout
+        android:id="@+id/or"
+        android:orientation="horizontal"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/line"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="OR"
+            android:id="@+id/view_centerCircle"
+            android:layout_gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/circle_signin_middle"
+            android:layout_height="35dp" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/line"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/email_edit_tv"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email / Username"
+        android:inputType="text"
+        android:background="@drawable/edittext_boxstyle_modified_states"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:textSize="16sp"
+        android:layout_below="@id/or"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        tools:layout_editor_absoluteX="20dp"
+        android:importantForAutofill="no"
+        tools:targetApi="o"/>
+
+
+    <EditText
+        android:id="@+id/password_edit_tv"
+        style="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@drawable/edittext_boxstyle_modified_states"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:layout_below="@id/email_edit_tv"
+        android:gravity="center"
+        android:textColor="@color/colorPrimaryDark"
+        tools:layout_editor_absoluteX="20dp"
+        android:importantForAutofill="no"
+        tools:targetApi="o"/>
+
+    <Button
+        android:id="@+id/sign_in_btn"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="30dp"
+        android:background="@drawable/border_curved"
+        android:layout_marginTop="10dp"
+        android:text="LOG IN"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_below="@+id/password_edit_tv" />
+
+    <Button
+        android:id="@+id/forgetpassword"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@android:color/transparent"
+        android:layout_above="@id/createaccount"
+        android:text="Forget your Password?"
+        android:textAlignment="center"
+        android:textSize="10sp"
+        />
+
+    <Button
+        android:id="@+id/createaccount"
+        android:layout_width="match_parent"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_height="30dp"
+        android:text="CREATE AN ACCOUNT"
+        android:drawableRight="@drawable/ic_person_add_black_24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:background="@drawable/border_curved"
+        android:layout_gravity="center"
+        android:paddingRight="20dp"
+        />
+
+<ProgressBar
+    android:layout_centerInParent="true"
+    android:id="@+id/sign_in_progress"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintTop_toTopOf="parent"
+    android:visibility="gone"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"/>
+
+</RelativeLayout>

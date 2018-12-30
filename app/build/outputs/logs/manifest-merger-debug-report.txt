@@ -1,0 +1,347 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:2:1-64:12
+INJECTED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:2:1-64:12
+INJECTED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:2:1-64:12
+INJECTED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:2:1-64:12
+MERGED from [com.android.support:design:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/fe62880b0ae49754f22586d3f9d80b5f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/a77a4ba4fc5d4e7763034b3c7852227f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/149a6d6573edc75488fb2950e119d13b/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.volley:volley:1.1.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/cb92a47c72d7e4c57ecffe9856b5dfad/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/bd9fe32b14fbf510bc343a3c1ae001fd/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.firebase:firebase-auth:16.0.4] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/1c431e12758c345a07e0f82973ec6c2c/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-auth:16.0.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/6190620cd883ac4fdcc7a9511a146ca6/AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/f8bcc2834563a96c9fc81a601497b57c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/564d1d902c11ea51ab10c0cb4a23bd08/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/155e968dd20a5c17c2e90c01955d62cf/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/c0d9163ccc9d1a8f741f666510bb7b04/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:15.1.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.1.0.aar/1231a690068fb9e4660264e1e0f703cb/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/b62870482e2a52ecdc3da6d667088a9e/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/0265953b18435b2836c763d12774dfa7/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/a0fab38c6b81a24f70139f8da07fccb8/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/2a8201110b5d2e02d20695a34b8b4033/AndroidManifest.xml:17:1-22:12
+MERGED from [io.paperdb:paperdb:2.6] /home/coderking/.gradle/caches/transforms-1/files-1.1/paperdb-2.6.aar/d53ce299b9aa59a5c0b2b88152f7f779/AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/b22a959be5829baac5fb717baa08fba5/AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/1b211a2a00cd72c4517d48183a76634a/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:27.0.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.0.aar/811d7b1739616192e2a3ed74e80329f6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/6609cd64fc9489a992149a275e791e38/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/37b32680179a3f62b988e534b4221dc9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/c0f55574213c39adcb338b1dccfa774e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/4958ca1f70a5c98a178941b67136db41/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/c66aa6b1f586a6129267b3e23b6f221a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/40151cec3521bb684a3f5255ecdf44fe/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/29c9cc1df1f253d7a6062a16421ff681/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/26b756134a7795326f9b2bef4533d55b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d1597e50cada9381568ceb8e89ffc7cb/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/f70f6b20a935291aeac45161351a6161/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/07a78a51292099a685f16865b39fe75b/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/b8383c8614dbfa823199eb27099332b5/AndroidManifest.xml:17:1-22:12
+INJECTED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:2:1-64:12
+INJECTED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:2:1-64:12
+INJECTED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:2:1-64:12
+	package
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:3:5-46
+		INJECTED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml
+		INJECTED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:2:1-64:12
+		INJECTED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:2:1-64:12
+		INJECTED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:6:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/bd9fe32b14fbf510bc343a3c1ae001fd/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/bd9fe32b14fbf510bc343a3c1ae001fd/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:7:5-82
+	android:name
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:7:22-79
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:8:5-68
+	android:name
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:8:22-65
+uses-permission#android.permission.INTERNET
+ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/bd9fe32b14fbf510bc343a3c1ae001fd/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/bd9fe32b14fbf510bc343a3c1ae001fd/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:9:22-64
+application
+ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:11:5-62:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/149a6d6573edc75488fb2950e119d13b/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/149a6d6573edc75488fb2950e119d13b/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/cb92a47c72d7e4c57ecffe9856b5dfad/AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/cb92a47c72d7e4c57ecffe9856b5dfad/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/bd9fe32b14fbf510bc343a3c1ae001fd/AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/bd9fe32b14fbf510bc343a3c1ae001fd/AndroidManifest.xml:30:5-20
+MERGED from [com.google.firebase:firebase-auth:16.0.4] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/1c431e12758c345a07e0f82973ec6c2c/AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-auth:16.0.4] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/1c431e12758c345a07e0f82973ec6c2c/AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/6190620cd883ac4fdcc7a9511a146ca6/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:16.0.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/6190620cd883ac4fdcc7a9511a146ca6/AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/564d1d902c11ea51ab10c0cb4a23bd08/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/564d1d902c11ea51ab10c0cb4a23bd08/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/155e968dd20a5c17c2e90c01955d62cf/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/155e968dd20a5c17c2e90c01955d62cf/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/b62870482e2a52ecdc3da6d667088a9e/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/b62870482e2a52ecdc3da6d667088a9e/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/0265953b18435b2836c763d12774dfa7/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/0265953b18435b2836c763d12774dfa7/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/a0fab38c6b81a24f70139f8da07fccb8/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/a0fab38c6b81a24f70139f8da07fccb8/AndroidManifest.xml:22:5-26:19
+MERGED from [io.paperdb:paperdb:2.6] /home/coderking/.gradle/caches/transforms-1/files-1.1/paperdb-2.6.aar/d53ce299b9aa59a5c0b2b88152f7f779/AndroidManifest.xml:12:5-20
+MERGED from [io.paperdb:paperdb:2.6] /home/coderking/.gradle/caches/transforms-1/files-1.1/paperdb-2.6.aar/d53ce299b9aa59a5c0b2b88152f7f779/AndroidManifest.xml:12:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/1b211a2a00cd72c4517d48183a76634a/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/1b211a2a00cd72c4517d48183a76634a/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:14:9-41
+	android:roundIcon
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:15:9-63
+	android:icon
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:13:9-52
+	android:allowBackup
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:17:9-40
+activity#com.medicento.salesappmedicento.NewPharmacy
+ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:18:9-21:65
+	android:parentActivityName
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:21:13-62
+	android:label
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:20:13-45
+	android:name
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:19:13-40
+activity#com.medicento.salesappmedicento.SalesPersonDetails
+ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:22:9-25:65
+	android:parentActivityName
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:25:13-62
+	android:label
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:24:13-39
+	android:name
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:23:13-47
+activity#com.medicento.salesappmedicento.SignInActivity
+ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:26:9-29:65
+	android:parentActivityName
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:29:13-62
+	android:label
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:27:13-43
+activity#com.medicento.salesappmedicento.NewArea
+ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:30:9-33:65
+	android:parentActivityName
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:33:13-62
+	android:label
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:32:13-41
+	android:name
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:31:13-36
+activity#com.medicento.salesappmedicento.Recentorder
+ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:35:9-38:65
+	android:parentActivityName
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:38:13-62
+	android:label
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:37:13-41
+	android:name
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:36:13-40
+activity#com.medicento.salesappmedicento.PlaceOrdersActivity
+ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:39:9-50:20
+	android:screenOrientation
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:43:13-49
+	android:label
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:41:13-48
+	android:launchMode
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:42:13-48
+	android:theme
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:44:13-56
+	android:name
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:40:13-48
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:45:13-49:29
+action#android.intent.action.MAIN
+ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:46:17-69
+	android:name
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:46:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:48:17-77
+	android:name
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:48:27-74
+activity#com.medicento.salesappmedicento.pharmacyRegister
+ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:51:9-54
+	android:name
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:51:19-51
+activity#com.medicento.salesappmedicento.recover
+ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:52:9-45
+	android:name
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:52:19-42
+activity#com.medicento.salesappmedicento.StatsActivity
+ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:53:9-57:20
+	android:theme
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:55:13-56
+	android:name
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:54:13-42
+activity#com.medicento.salesappmedicento.demoActivity
+ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:58:9-60:20
+	android:name
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml:58:19-47
+uses-sdk
+INJECTED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml
+INJECTED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/fe62880b0ae49754f22586d3f9d80b5f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/fe62880b0ae49754f22586d3f9d80b5f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/a77a4ba4fc5d4e7763034b3c7852227f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/a77a4ba4fc5d4e7763034b3c7852227f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/149a6d6573edc75488fb2950e119d13b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.0.aar/149a6d6573edc75488fb2950e119d13b/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.volley:volley:1.1.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/cb92a47c72d7e4c57ecffe9856b5dfad/AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/volley-1.1.0.aar/cb92a47c72d7e4c57ecffe9856b5dfad/AndroidManifest.xml:7:5-43
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/bd9fe32b14fbf510bc343a3c1ae001fd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:15.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/bd9fe32b14fbf510bc343a3c1ae001fd/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.4] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/1c431e12758c345a07e0f82973ec6c2c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.4] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/1c431e12758c345a07e0f82973ec6c2c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/6190620cd883ac4fdcc7a9511a146ca6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:16.0.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/6190620cd883ac4fdcc7a9511a146ca6/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/f8bcc2834563a96c9fc81a601497b57c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/f8bcc2834563a96c9fc81a601497b57c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/564d1d902c11ea51ab10c0cb4a23bd08/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.1.aar/564d1d902c11ea51ab10c0cb4a23bd08/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/155e968dd20a5c17c2e90c01955d62cf/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/155e968dd20a5c17c2e90c01955d62cf/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/c0d9163ccc9d1a8f741f666510bb7b04/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-auth-api-phone-15.0.1.aar/c0d9163ccc9d1a8f741f666510bb7b04/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.1.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.1.0.aar/1231a690068fb9e4660264e1e0f703cb/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.1.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-auth-base-15.1.0.aar/1231a690068fb9e4660264e1e0f703cb/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/b62870482e2a52ecdc3da6d667088a9e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/b62870482e2a52ecdc3da6d667088a9e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/0265953b18435b2836c763d12774dfa7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-tasks-16.0.1.aar/0265953b18435b2836c763d12774dfa7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/a0fab38c6b81a24f70139f8da07fccb8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/a0fab38c6b81a24f70139f8da07fccb8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/2a8201110b5d2e02d20695a34b8b4033/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/2a8201110b5d2e02d20695a34b8b4033/AndroidManifest.xml:20:5-44
+MERGED from [io.paperdb:paperdb:2.6] /home/coderking/.gradle/caches/transforms-1/files-1.1/paperdb-2.6.aar/d53ce299b9aa59a5c0b2b88152f7f779/AndroidManifest.xml:8:5-10:41
+MERGED from [io.paperdb:paperdb:2.6] /home/coderking/.gradle/caches/transforms-1/files-1.1/paperdb-2.6.aar/d53ce299b9aa59a5c0b2b88152f7f779/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/b22a959be5829baac5fb717baa08fba5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/b22a959be5829baac5fb717baa08fba5/AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/1b211a2a00cd72c4517d48183a76634a/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/1b211a2a00cd72c4517d48183a76634a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:27.0.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.0.aar/811d7b1739616192e2a3ed74e80329f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.0.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.0.aar/811d7b1739616192e2a3ed74e80329f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/6609cd64fc9489a992149a275e791e38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/6609cd64fc9489a992149a275e791e38/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/37b32680179a3f62b988e534b4221dc9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/37b32680179a3f62b988e534b4221dc9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/c0f55574213c39adcb338b1dccfa774e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/c0f55574213c39adcb338b1dccfa774e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/4958ca1f70a5c98a178941b67136db41/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/4958ca1f70a5c98a178941b67136db41/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/c66aa6b1f586a6129267b3e23b6f221a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/c66aa6b1f586a6129267b3e23b6f221a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/40151cec3521bb684a3f5255ecdf44fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/40151cec3521bb684a3f5255ecdf44fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/29c9cc1df1f253d7a6062a16421ff681/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/29c9cc1df1f253d7a6062a16421ff681/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/26b756134a7795326f9b2bef4533d55b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/26b756134a7795326f9b2bef4533d55b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d1597e50cada9381568ceb8e89ffc7cb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/d1597e50cada9381568ceb8e89ffc7cb/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/f70f6b20a935291aeac45161351a6161/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/f70f6b20a935291aeac45161351a6161/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/07a78a51292099a685f16865b39fe75b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/07a78a51292099a685f16865b39fe75b/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/b8383c8614dbfa823199eb27099332b5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/b8383c8614dbfa823199eb27099332b5/AndroidManifest.xml:20:5-44
+INJECTED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml
+INJECTED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml
+		INJECTED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml
+		ADDED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml
+		INJECTED from /media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/src/main/AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:15.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/bd9fe32b14fbf510bc343a3c1ae001fd/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/bd9fe32b14fbf510bc343a3c1ae001fd/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:15.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-maps-15.0.1.aar/bd9fe32b14fbf510bc343a3c1ae001fd/AndroidManifest.xml:28:9-32
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/1c431e12758c345a07e0f82973ec6c2c/AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/1c431e12758c345a07e0f82973ec6c2c/AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/1c431e12758c345a07e0f82973ec6c2c/AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/1c431e12758c345a07e0f82973ec6c2c/AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/1c431e12758c345a07e0f82973ec6c2c/AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/1c431e12758c345a07e0f82973ec6c2c/AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/1c431e12758c345a07e0f82973ec6c2c/AndroidManifest.xml:24:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/1c431e12758c345a07e0f82973ec6c2c/AndroidManifest.xml:31:9-35:19
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/1c431e12758c345a07e0f82973ec6c2c/AndroidManifest.xml:31:18-89
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/1c431e12758c345a07e0f82973ec6c2c/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/1c431e12758c345a07e0f82973ec6c2c/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.4] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.4.aar/1c431e12758c345a07e0f82973ec6c2c/AndroidManifest.xml:33:17-109
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/6190620cd883ac4fdcc7a9511a146ca6/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/6190620cd883ac4fdcc7a9511a146ca6/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/6190620cd883ac4fdcc7a9511a146ca6/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/6190620cd883ac4fdcc7a9511a146ca6/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/6190620cd883ac4fdcc7a9511a146ca6/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/6190620cd883ac4fdcc7a9511a146ca6/AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/6190620cd883ac4fdcc7a9511a146ca6/AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/6190620cd883ac4fdcc7a9511a146ca6/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:16.0.0] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-auth-16.0.0.aar/6190620cd883ac4fdcc7a9511a146ca6/AndroidManifest.xml:34:13-89
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/155e968dd20a5c17c2e90c01955d62cf/AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/155e968dd20a5c17c2e90c01955d62cf/AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/155e968dd20a5c17c2e90c01955d62cf/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/155e968dd20a5c17c2e90c01955d62cf/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] /home/coderking/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.3.aar/155e968dd20a5c17c2e90c01955d62cf/AndroidManifest.xml:11:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/b62870482e2a52ecdc3da6d667088a9e/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/b62870482e2a52ecdc3da6d667088a9e/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/b62870482e2a52ecdc3da6d667088a9e/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/b62870482e2a52ecdc3da6d667088a9e/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/a0fab38c6b81a24f70139f8da07fccb8/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/a0fab38c6b81a24f70139f8da07fccb8/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] /home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/a0fab38c6b81a24f70139f8da07fccb8/AndroidManifest.xml:24:13-58

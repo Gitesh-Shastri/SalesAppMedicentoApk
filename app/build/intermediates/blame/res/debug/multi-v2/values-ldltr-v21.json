@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+            "map": [
+                {
+                    "source": "/home/coderking/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/a77a4ba4fc5d4e7763034b3c7852227f/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "112",
+                        "endOffsets": "163"
+                    }
+                }
+            ]
+        }
+    ]
+}

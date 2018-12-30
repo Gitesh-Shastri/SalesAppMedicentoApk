@@ -1,0 +1,7 @@
+#Sun Dec 30 19:43:25 IST 2018
+base.0=/media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/build/intermediates/transforms/dexMerger/debug/1
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=/media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/build/intermediates/transforms/dexMerger/debug/0
