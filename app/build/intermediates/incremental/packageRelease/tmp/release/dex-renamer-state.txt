@@ -1,0 +1,4 @@
+#Thu Jun 13 01:56:31 IST 2019
+base.0=/Users/apple/Desktop/AndroidApps/SalesAppMedicentoApk/app/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex

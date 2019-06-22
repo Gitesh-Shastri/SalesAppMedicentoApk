@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".actvity.ParticularTabDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_marginLeft="1dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:background="@color/colorPrimaryDark"
+            android:text="Daily"
+            />
+        <Button
+            android:layout_marginLeft="1dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_marginRight="1dp"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            android:text="Weekly"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_marginRight="1dp"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            android:text="Monthly"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/linear"
+        android:id="@+id/order_details"
+        android:text="Order Details"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/recycler"
+        android:layout_below="@id/order_details"
+        android:layout_marginTop="10dip"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Amount : ₹ 5,800"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dip"
+        android:textSize="20sp"
+        android:gravity="center_horizontal"
+        />
+
+</RelativeLayout>

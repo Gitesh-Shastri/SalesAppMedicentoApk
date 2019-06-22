@@ -1,4 +1,4 @@
-package com.medicento.salesappmedicento;
+package com.developer.medicento.salesappmedicento;
 
 import org.junit.Test;
 

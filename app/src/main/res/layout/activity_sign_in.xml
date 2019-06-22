@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/signInLayout"
     android:orientation="vertical"
-tools:context=".SignInActivity"
-android:background="@color/colorBackground">
+    tools:context=".actvity.SignInActivity"
+    android:background="@color/colorBackground">
 
 <ImageView
     android:layout_marginTop="30dp"
@@ -91,7 +93,6 @@ android:background="@color/colorBackground">
 
     <EditText
         android:id="@+id/password_edit_tv"
-        style="@style/Base.TextAppearance.AppCompat.Large"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"

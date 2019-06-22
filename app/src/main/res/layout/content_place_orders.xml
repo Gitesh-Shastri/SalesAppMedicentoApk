@@ -12,10 +12,135 @@
        android:layout_width="match_parent"
        android:layout_height="match_parent">
 
+       <android.support.v7.widget.CardView
+           android:layout_width="250dp"
+           android:visibility="gone"
+           android:layout_centerInParent="true"
+           app:cardElevation="10dp"
+           android:id="@+id/card_slot"
+           android:layout_height="wrap_content">
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:orientation="vertical"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:padding="5dp"
+                   android:background="@color/colorPrimary"
+                   android:layout_width="match_parent"
+                   android:gravity="center_horizontal"
+                   android:textColor="@color/white"
+                   android:text="Choose Slot"
+                   android:layout_height="wrap_content" />
+
+               <LinearLayout
+                   android:padding="3dp"
+                   android:weightSum="10"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content">
+
+                   <Spinner
+                       android:id="@+id/day_spinner"
+                        android:layout_weight="5"
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content" />
+
+                   <Spinner
+                       android:id="@+id/slot_spinner"
+                       android:layout_weight="5"
+                       android:layout_width="0dp"
+                       android:layout_height="wrap_content" />
+
+               </LinearLayout>
+
+               <Button
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Set Slot "
+                   android:drawableRight="@drawable/ic_access_alarms_black_24dp"
+                   android:textColor="@color/white"
+                   android:background="@color/red"
+                   android:padding="10dp"
+                   android:id="@+id/choose"
+                   android:layout_gravity="center_horizontal"
+                   android:layout_margin="10dp"
+                   />
+
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+
        <FrameLayout
            android:id="@+id/main_container"
            android:layout_width="match_parent"
+           android:layout_above="@+id/linear_product"
            android:layout_height="match_parent"/>
+
+       <RelativeLayout
+           android:visibility="gone"
+           android:padding="10dp"
+           android:id="@+id/linear_product"
+           android:background="@color/dark_blue"
+           android:layout_width="match_parent"
+           android:layout_alignParentBottom="true"
+           android:layout_height="wrap_content">
+
+           <Button
+               android:layout_alignParentLeft="true"
+               android:textColor="@color/white"
+               android:background="@drawable/border_white"
+               android:layout_width="wrap_content"
+               android:text="Ethical"
+               android:textStyle="bold"
+               android:layout_height="37dp" />
+
+           <Button
+               android:textStyle="bold"
+               android:layout_centerInParent="true"
+               android:textColor="@color/white"
+               android:background="@drawable/border_light_blue"
+               android:layout_width="wrap_content"
+               android:text="Generic"
+               android:layout_height="37dp" />
+
+           <Button
+               android:textStyle="bold"
+               android:layout_alignParentRight="true"
+               android:textColor="@color/white"
+               android:background="@drawable/border_light_blue"
+               android:layout_width="wrap_content"
+                android:text="Surgical"
+               android:layout_height="37dp" />
+
+       </RelativeLayout>
+
+
+       <Button
+           android:visibility="gone"
+           android:id="@+id/prev"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Go Back"
+           android:background="@color/colorPrimary"
+           android:textColor="@color/white"
+           android:layout_alignParentBottom="true"
+           android:layout_alignParentStart="true"
+           android:drawableStart="@drawable/ic_arrow_back_white_24dp"
+           />
+
+       <Button
+           android:visibility="gone"
+           android:background="@color/colorPrimary"
+           android:id="@+id/next"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Next"
+           android:textColor="@color/white"
+           android:layout_alignParentBottom="true"
+           android:layout_alignParentEnd="true"
+           android:drawableEnd="@drawable/ic_arrow_forward_white_24dp"
+           />
 
        <View
             android:clickable="false"
@@ -29,5 +154,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerInParent="true" />
+
+
     </RelativeLayout>
+
+    <include
+        android:visibility="gone"
+        android:id="@+id/bottom_sheet_view"
+        layout="@layout/bottom_sheet" />
+
 </android.support.design.widget.CoordinatorLayout>

@@ -19,6 +19,12 @@
         <item>Paracetamol</item>
         <item>Asprin</item>
     </string-array>
+
+    <string name="new_version_is_available_n_please_update_app">New Version is available.\nPlease Update App</string>
+    <string name="we_couldn_t_find_your_email_id_mobile_no">We Couldn\'t find your \n Email ID/ Mobile No.</string>
+    <string name="please_re_enter_or_get_in_touch_with_us_at_91_9731785240">Please Re-enter or get in \n touch with us at (+91)-9731785240</string>
+
+    <string name="please_find_below_details"><u>Please find below details :</u></string>
     <string name="title_activity_place_orders">PlaceOrdersActivity</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -41,5 +47,7 @@
     <string name="log_in">login</string>
     <string name="enter_user_code">user</string>
     <string name="sign_up_with"><u>Sign Up With</u></string>
+    <string name="selected_pharmacy">Selected Pharmacy : %1$s</string>
+    <string name="cart_subtotal_0_items">Cart SubTotal (%1$s Items):</string>
 
 </resources>

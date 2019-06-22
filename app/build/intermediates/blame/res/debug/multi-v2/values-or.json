@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml",
+            "outputFile": "/Users/apple/Desktop/AndroidApps/SalesAppMedicentoApk/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-or/values-or.xml",
             "map": [
                 {
-                    "source": "/home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/b62870482e2a52ecdc3da6d667088a9e/res/values-or/values.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/4c2bf9668e01582a0be8c3fced82a94e/res/values-or/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/coderking/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/a0fab38c6b81a24f70139f8da07fccb8/res/values-or/values.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/63c205816724b51f9a4bfc113da8b1a0/res/values-or/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

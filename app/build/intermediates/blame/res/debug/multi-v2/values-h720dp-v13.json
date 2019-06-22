@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "/Users/apple/Desktop/AndroidApps/SalesAppMedicentoApk/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/coderking/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/a77a4ba4fc5d4e7763034b3c7852227f/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/62ff1d6f6622741cfaa578d7bc384424/res/values-h720dp-v13/values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

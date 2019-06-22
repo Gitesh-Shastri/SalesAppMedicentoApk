@@ -1,4 +1,4 @@
-package com.medicento.salesappmedicento;
+package com.developer.medicento.salesappmedicento;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

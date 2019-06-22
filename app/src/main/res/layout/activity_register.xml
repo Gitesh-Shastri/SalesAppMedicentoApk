@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".actvity.RegisterActivity">
+
+
+            <LinearLayout
+                android:id="@+id/contact"
+                android:padding="10dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="CONTACT DETAILS"
+                    android:textColor="@color/colorPrimaryDark"
+                    />
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="5"
+                    android:hint="Sales Person Name"
+                    android:maxLines="1"
+                    android:textSize="14sp" />
+
+                    <Spinner
+                        android:entries="@array/state"
+                        style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:id="@+id/stateSpinner"
+                        />
+
+                <Spinner
+                    style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                    android:entries="@array/city"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:id="@+id/citySpinner"
+                    />
+
+
+                <EditText
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:id="@+id/address"
+                    android:hint="Address"
+                    android:textSize="14sp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+
+                    <EditText
+                        android:id="@+id/driving"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="5"
+                        android:hint="Driving License No."
+                        android:maxLines="1"
+                        android:textSize="14sp" />
+
+                    <EditText
+                        android:id="@+id/pan"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_weight="5"
+                        android:hint="PAN Card No."
+                        android:maxLines="1"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/login_card"
+            android:layout_margin="5dp"
+            android:layout_below="@id/contact"
+            app:cardElevation="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:paddingTop="2dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="LOGIN DETAILS"
+                android:textColor="#0864EE"
+                />
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:weightSum="10"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:layout_marginTop="5dp"
+                        android:layout_width="0dp"
+                        android:layout_weight="5"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:id="@+id/salesId"
+                        android:hint="Username / Sales ID"
+                        android:textSize="12sp"
+                        />
+
+
+                    <EditText
+                        android:inputType="numberPassword"
+                        android:layout_weight="5"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:maxLines="1"
+                        android:id="@+id/password"
+                        android:hint="Password"
+                        android:textSize="12sp"
+                        />
+
+                </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:weightSum="10"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:inputType="phone"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="0dp"
+                    android:layout_weight="5"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:id="@+id/phone"
+                    android:hint="Phone No."
+                    android:textSize="12sp"
+                    />
+                <EditText
+                    android:inputType="textEmailAddress"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:id="@+id/email"
+                    android:hint="Email ID"
+                    android:textSize="12sp"
+                    />
+
+            </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:textSize="12sp"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="By Clicking Create Account, You Agree to Medicento's"
+            android:layout_above="@id/terms"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:id="@+id/create_label"
+            />
+
+        <Button
+            android:textSize="12sp"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:id="@+id/terms"
+            android:text="Terms of Service"
+            android:layout_above="@id/create"
+            android:background="@android:color/transparent"
+            android:textColor="#0000FF"
+            android:layout_centerHorizontal="true"
+            />
+
+    <Button
+        android:id="@+id/create"
+        android:padding="10dp"
+        android:background="@drawable/border_white"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_above="@id/login_layout"
+        android:layout_centerHorizontal="true"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:text="Create Account"
+        />
+
+    <LinearLayout
+        android:id="@+id/login_layout"
+        android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:textSize="12sp"
+            android:text="Already have a Sales ID?"
+            android:layout_marginBottom="5dp"
+            />
+
+        <Button
+            android:id="@+id/login"
+            android:background="@android:color/transparent"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textSize="12sp"
+            android:textColor="#0000FF"
+            android:text="Login Here"
+            />
+
+    </LinearLayout>
+
+    </RelativeLayout>

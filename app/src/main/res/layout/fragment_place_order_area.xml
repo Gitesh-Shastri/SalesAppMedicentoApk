@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.PlaceOrderAreaFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Search Pharmacy"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:id="@+id/select_area_tv"
+            android:textColor="@color/colorPrimaryDark"
+            />
+
+        <AutoCompleteTextView
+            android:visibility="gone"
+            android:layout_below="@id/select_area_tv"
+            android:id="@+id/areaAuto"
+            android:textSize="12sp"
+            android:maxLines="1"
+            android:hint="Enter Area Name"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10" />
+
+        <Spinner
+            android:visibility="gone"
+            android:layout_below="@id/select_area_tv"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="Select Area"
+            android:id="@+id/areaSpinner"
+            style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+            />
+
+        <android.support.v7.widget.SearchView
+            app:queryHint="Search Pharma Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/areaSpinner"
+            android:id="@+id/search"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:scrollbars="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/search"
+            android:layout_marginTop="10dp"
+            android:id="@+id/pharmacy_rv"
+            />
+
+    </RelativeLayout>
+
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="state" >
+        <item>State</item>
+    </array>
+    <array name="city" >
+        <item>City</item>
+    </array>
+</resources>

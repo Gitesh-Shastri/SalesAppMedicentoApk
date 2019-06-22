@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/media/coderking/B4D690ECD690B05A1/SalesApp/SalesApp-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/Users/apple/Desktop/AndroidApps/SalesAppMedicentoApk/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/home/coderking/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.0.0.aar/811d7b1739616192e2a3ed74e80329f6/res/values-v23/values-v23.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/f20531c64b80590f0c415f41ec9c723c/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/coderking/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/a77a4ba4fc5d4e7763034b3c7852227f/res/values-v23/values-v23.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/62ff1d6f6622741cfaa578d7bc384424/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

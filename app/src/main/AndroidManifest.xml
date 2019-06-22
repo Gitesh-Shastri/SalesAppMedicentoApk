@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.medicento.salesappmedicento">
+    package="com.developer.medicento.salesappmedicento">
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -15,50 +15,62 @@
         android:roundIcon="@mipmap/ic_launcher_new_full_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".actvity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".actvity.RegisterActivity"
+            android:label="Sales Person Registration" />
         <activity
             android:name=".NewPharmacy"
             android:label="Add new Pharmacy"
-            android:parentActivityName=".PlaceOrdersActivity" />
+            android:parentActivityName=".actvity.PlaceOrderNewActivity" />
         <activity
             android:name=".SalesPersonDetails"
             android:label="My Profile"
-            android:parentActivityName=".PlaceOrdersActivity" />
+            android:parentActivityName=".actvity.PlaceOrderNewActivity" />
         <activity
-            android:name=".SignInActivity"
+            android:name=".actvity.SignInActivity"
             android:label="Sign In"
-            android:parentActivityName=".PlaceOrdersActivity" />
+            android:parentActivityName=".actvity.PlaceOrderNewActivity" />
         <activity
             android:name=".NewArea"
             android:label="Add new Area"
-            android:parentActivityName=".PlaceOrdersActivity" />
-        ````````
+            android:parentActivityName=".actvity.PlaceOrderNewActivity" />
         <activity
-            android:name=".Recentorder"
+            android:name=".actvity.Recentorder"
             android:label="Recent Order"
-            android:parentActivityName=".PlaceOrdersActivity" />
+            android:parentActivityName=".actvity.ParticularTabDetailsActivity" />
         <activity
-            android:name=".PlaceOrdersActivity"
+            android:name=".actvity.PlaceOrderNewActivity"
             android:label="Sales App Medicento"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".pharmacyRegister" />
         <activity android:name=".recover" />
         <activity
             android:name=".StatsActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
-        <activity android:name=".demoActivity">
-
-        </activity>
-
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".demoActivity" />
+        <activity
+            android:name=".actvity.ParticularTabDetailsActivity"
+            android:label="My Orders"
+            android:parentActivityName=".actvity.PlaceOrderNewActivity" />
+        <activity
+            android:name=".actvity.ParticularOrderDetails"
+            android:label="Order Details"
+            android:parentActivityName=".actvity.Recentorder" />
+        <activity
+            android:name=".actvity.OrderConfirmed"
+            android:label="Order Placed"
+            android:parentActivityName=".actvity.PlaceOrderNewActivity" />
     </application>
 
 </manifest>

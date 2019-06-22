@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.medicento.salesappmedicento"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    package="com.developer.medicento.salesappmedicento"
+    android:versionCode="2"
+    android:versionName="1.0.1" >
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -25,49 +25,63 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_new_full_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name="com.medicento.salesappmedicento.NewPharmacy"
-            android:label="Add new Pharmacy"
-            android:parentActivityName="com.medicento.salesappmedicento.PlaceOrdersActivity" />
-        <activity
-            android:name="com.medicento.salesappmedicento.SalesPersonDetails"
-            android:label="My Profile"
-            android:parentActivityName="com.medicento.salesappmedicento.PlaceOrdersActivity" />
-        <activity
-            android:name="com.medicento.salesappmedicento.SignInActivity"
-            android:label="Sign In"
-            android:parentActivityName="com.medicento.salesappmedicento.PlaceOrdersActivity" />
-        <activity
-            android:name="com.medicento.salesappmedicento.NewArea"
-            android:label="Add new Area"
-            android:parentActivityName="com.medicento.salesappmedicento.PlaceOrdersActivity" />
-        ````````
-        <activity
-            android:name="com.medicento.salesappmedicento.Recentorder"
-            android:label="Recent Order"
-            android:parentActivityName="com.medicento.salesappmedicento.PlaceOrdersActivity" />
-        <activity
-            android:name="com.medicento.salesappmedicento.PlaceOrdersActivity"
-            android:label="Sales App Medicento"
-            android:launchMode="singleInstance"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" >
+        <activity android:name="com.developer.medicento.salesappmedicento.actvity.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.medicento.salesappmedicento.pharmacyRegister" />
-        <activity android:name="com.medicento.salesappmedicento.recover" />
         <activity
-            android:name="com.medicento.salesappmedicento.StatsActivity"
+            android:name="com.developer.medicento.salesappmedicento.actvity.RegisterActivity"
+            android:label="Sales Person Registration" />
+        <activity
+            android:name="com.developer.medicento.salesappmedicento.NewPharmacy"
+            android:label="Add new Pharmacy"
+            android:parentActivityName="com.developer.medicento.salesappmedicento.actvity.PlaceOrderNewActivity" />
+        <activity
+            android:name="com.developer.medicento.salesappmedicento.SalesPersonDetails"
+            android:label="My Profile"
+            android:parentActivityName="com.developer.medicento.salesappmedicento.actvity.PlaceOrderNewActivity" />
+        <activity
+            android:name="com.developer.medicento.salesappmedicento.actvity.SignInActivity"
+            android:label="Sign In"
+            android:parentActivityName="com.developer.medicento.salesappmedicento.actvity.PlaceOrderNewActivity" />
+        <activity
+            android:name="com.developer.medicento.salesappmedicento.NewArea"
+            android:label="Add new Area"
+            android:parentActivityName="com.developer.medicento.salesappmedicento.actvity.PlaceOrderNewActivity" />
+        <activity
+            android:name="com.developer.medicento.salesappmedicento.actvity.Recentorder"
+            android:label="Recent Order"
+            android:parentActivityName="com.developer.medicento.salesappmedicento.actvity.ParticularTabDetailsActivity" />
+        <activity
+            android:name="com.developer.medicento.salesappmedicento.actvity.PlaceOrderNewActivity"
+            android:label="Sales App Medicento"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
-        <activity android:name="com.medicento.salesappmedicento.demoActivity" >
-        </activity>
+        <activity android:name="com.developer.medicento.salesappmedicento.pharmacyRegister" />
+        <activity android:name="com.developer.medicento.salesappmedicento.recover" />
+        <activity
+            android:name="com.developer.medicento.salesappmedicento.StatsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.developer.medicento.salesappmedicento.demoActivity" />
+        <activity
+            android:name="com.developer.medicento.salesappmedicento.actvity.ParticularTabDetailsActivity"
+            android:label="My Orders"
+            android:parentActivityName="com.developer.medicento.salesappmedicento.actvity.PlaceOrderNewActivity" />
+        <activity
+            android:name="com.developer.medicento.salesappmedicento.actvity.ParticularOrderDetails"
+            android:label="Order Details"
+            android:parentActivityName="com.developer.medicento.salesappmedicento.actvity.Recentorder" />
+        <activity
+            android:name="com.developer.medicento.salesappmedicento.actvity.OrderConfirmed"
+            android:label="Order Placed"
+            android:parentActivityName="com.developer.medicento.salesappmedicento.actvity.PlaceOrderNewActivity" />
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"
@@ -98,7 +112,7 @@
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.medicento.salesappmedicento.firebaseinitprovider"
+            android:authorities="com.developer.medicento.salesappmedicento.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
 
