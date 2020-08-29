@@ -21,6 +21,7 @@
     android:contentDescription="@string/todo" />
 
     <Button
+        android:visibility="gone"
         android:layout_marginTop="10dp"
         android:layout_width="match_parent"
         android:textColor="@color/white"
@@ -37,6 +38,7 @@
         />
 
     <LinearLayout
+        android:visibility="gone"
         android:id="@+id/or"
         android:orientation="horizontal"
         android:layout_centerInParent="true"
@@ -83,7 +85,7 @@
         android:layout_marginRight="20dp"
         android:layout_marginTop="30dp"
         android:textSize="16sp"
-        android:layout_below="@id/or"
+        android:layout_below="@id/medicento_logo"
         android:gravity="center"
         android:textColor="@color/colorPrimaryDark"
         tools:layout_editor_absoluteX="20dp"

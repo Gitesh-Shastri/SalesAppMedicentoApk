@@ -2,9 +2,15 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
+        android:id="@+id/action_notification"
+        android:orderInCategory="100"
+        android:title="@string/action_proceed"
+        app:showAsAction="always"
+        android:icon="@drawable/counter_noti"/>
+    <item
         android:id="@+id/action_proceed"
         android:orderInCategory="100"
         android:title="@string/action_proceed"
         app:showAsAction="always"
-        android:icon="@drawable/ic_cart"/>
+        android:icon="@drawable/counter"/>
 </menu>

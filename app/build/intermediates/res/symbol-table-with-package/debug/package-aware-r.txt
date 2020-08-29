@@ -1,4 +1,4 @@
-com.developer.medicento.salesappmedicento
+com.salesappmedicento
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -750,6 +750,7 @@ dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
 dimen activity_horizontal_margin
 dimen activity_vertical_margin
+dimen badge_count_textsize
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
@@ -964,6 +965,7 @@ drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
 drawable counter
+drawable counter_noti
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
@@ -1241,6 +1243,7 @@ drawable ic_assessment_white_24dp
 drawable ic_assignment_black_24dp
 drawable ic_backspace_black_24dp
 drawable ic_border_color_black_24dp
+drawable ic_buy
 drawable ic_cart
 drawable ic_checked
 drawable ic_clear_black_24dp
@@ -1277,6 +1280,7 @@ drawable ic_man
 drawable ic_monetization_on_black_24dp
 drawable ic_monetization_on_black_48dp
 drawable ic_navigation_black_24dp
+drawable ic_notification
 drawable ic_optimization
 drawable ic_password
 drawable ic_perm_identity_black_24dp
@@ -1301,6 +1305,7 @@ drawable ic_settings_black_24dp
 drawable ic_share_white_24dp
 drawable ic_shopping_cart_black_24dp
 drawable ic_star_border_black_24dp
+drawable ic_stat_name
 drawable ic_trolley
 drawable ic_twitter
 drawable ic_up_arrow
@@ -1424,6 +1429,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_notification
 id action_proceed
 id action_text
 id actions
@@ -1471,6 +1477,7 @@ id clip_vertical
 id code
 id collapseActionView
 id company_name_auto
+id company_rl
 id congo
 id congo1
 id contact
@@ -1485,6 +1492,7 @@ id countryCodeHolder
 id create
 id create_label
 id createaccount
+id credits
 id custom
 id customPanel
 id dark
@@ -1585,12 +1593,14 @@ id medicine_company
 id medicine_company_1
 id medicine_cost
 id medicine_cost_1
+id medicine_discount
 id medicine_edit_tv
 id medicine_mrp
 id medicine_mrp_auto
 id medicine_name
 id medicine_name_1
 id medicine_name_auto
+id medicine_name_auto_ll
 id medicine_qty
 id medicine_qty_1
 id medicine_quantity
@@ -1651,6 +1661,7 @@ id order_list_label
 id order_status
 id ordered_medicines_list
 id packed
+id packing
 id pan
 id parallax
 id parent
@@ -1756,6 +1767,7 @@ id stcok
 id submenuarrow
 id submit
 id submit_area
+id swipe_refresh
 id swipe_up
 id tabMode
 id tablayout
@@ -1808,6 +1820,7 @@ id transition_transform
 id tv2
 id tvAnimalAddess
 id tvAnimalName
+id tvAreaName
 id uniform
 id up
 id update
@@ -1871,12 +1884,14 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_details
 layout activity_main
+layout activity_medicine_selection
 layout activity_new_area
 layout activity_new_pharmacy
 layout activity_order_confirmed
 layout activity_particular_order_details
 layout activity_particular_tab_details
 layout activity_pharmacy_register
+layout activity_pharmacy_selection
 layout activity_place_order_new
 layout activity_place_orders
 layout activity_recover
@@ -1884,6 +1899,8 @@ layout activity_register
 layout activity_sales_person_details
 layout activity_sign_in
 layout activity_stats
+layout app_bar_medicines
+layout app_bar_pharmacy
 layout app_bar_place_orders
 layout area_pharma_selection_fragment
 layout bottom_layout
@@ -2056,6 +2073,7 @@ string common_signin_button_text_long
 string default_web_client_id
 string enter_user_code
 string fastscroll__app_name
+string fcm_fallback_notification_channel_label
 string fetch_area_action
 string fetch_medicine_action
 string fetch_pharmacy_action
@@ -2545,3 +2563,5 @@ styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId
 styleable fastscroll__fastScroller fastscroll__bubbleColor fastscroll__bubbleTextAppearance fastscroll__handleColor
+xml network_security_config
+xml provider_paths

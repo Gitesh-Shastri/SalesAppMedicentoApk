@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu Jun 13 01:56:32 IST 2019
+#Sun Feb 02 17:49:10 IST 2020
 20.base=/Users/apple/Desktop/AndroidApps/SalesAppMedicentoApk/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out
 143.base=/Users/apple/Desktop/AndroidApps/SalesAppMedicentoApk/app/build/intermediates/merged_assets/release/mergeReleaseAssets/out
 237.path=io/michaelrocks/libphonenumber/android/data/ShortNumberMetadataProto_SB

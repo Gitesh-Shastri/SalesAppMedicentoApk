@@ -8,4 +8,5 @@
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="design_navigation_icon_size" tools:override="true">36dp</dimen>
 
+    <dimen name="badge_count_textsize">12sp</dimen>
 </resources>

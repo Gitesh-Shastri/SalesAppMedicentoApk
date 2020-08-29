@@ -1,20 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.developer.medicento.salesappmedicento">
+    package="com.salesappmedicento">
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <permission
+        android:name="com.salesappmedicento.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.medicento.admin.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_new_full"
         android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
         android:roundIcon="@mipmap/ic_launcher_new_full_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <service
+            android:name=".FetchMedicineService"
+            android:enabled="true"
+            android:exported="true"></service>
+
+        <activity
+            android:name=".actvity.MedicineSelectionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".actvity.PharmacySelectionActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".actvity.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,19 +52,18 @@
         <activity
             android:name=".NewPharmacy"
             android:label="Add new Pharmacy"
-            android:parentActivityName=".actvity.PlaceOrderNewActivity" />
+            android:parentActivityName=".actvity.PharmacySelectionActivity" />
         <activity
             android:name=".SalesPersonDetails"
             android:label="My Profile"
-            android:parentActivityName=".actvity.PlaceOrderNewActivity" />
+            android:parentActivityName=".actvity.PharmacySelectionActivity" />
         <activity
             android:name=".actvity.SignInActivity"
-            android:label="Sign In"
-            android:parentActivityName=".actvity.PlaceOrderNewActivity" />
+            android:label="Sign In" />
         <activity
             android:name=".NewArea"
             android:label="Add new Area"
-            android:parentActivityName=".actvity.PlaceOrderNewActivity" />
+            android:parentActivityName=".actvity.PharmacySelectionActivity" />
         <activity
             android:name=".actvity.Recentorder"
             android:label="Recent Order"
@@ -51,8 +73,7 @@
             android:label="Sales App Medicento"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".pharmacyRegister" />
         <activity android:name=".recover" />
         <activity
@@ -62,7 +83,7 @@
         <activity
             android:name=".actvity.ParticularTabDetailsActivity"
             android:label="My Orders"
-            android:parentActivityName=".actvity.PlaceOrderNewActivity" />
+            android:parentActivityName=".actvity.PharmacySelectionActivity" />
         <activity
             android:name=".actvity.ParticularOrderDetails"
             android:label="Order Details"
@@ -70,7 +91,36 @@
         <activity
             android:name=".actvity.OrderConfirmed"
             android:label="Order Placed"
-            android:parentActivityName=".actvity.PlaceOrderNewActivity" />
+            android:parentActivityName=".actvity.PharmacySelectionActivity" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_launcher_background" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorPrimary" />
+        <service android:name=".MyFireBaseInstanceService"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false">
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+        <receiver
+            android:name=".GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.boloindya.boloindya" />
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

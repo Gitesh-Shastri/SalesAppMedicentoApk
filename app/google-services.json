@@ -1,52 +1,111 @@
 {
   "project_info": {
-    "project_number": "558427235369",
-    "firebase_url": "https://sales-app-4305e.firebaseio.com",
-    "project_id": "sales-app-4305e",
-    "storage_bucket": "sales-app-4305e.appspot.com"
+    "project_number": "945301165668",
+    "firebase_url": "https://medicentomessaging.firebaseio.com",
+    "project_id": "medicentomessaging",
+    "storage_bucket": "medicentomessaging.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:558427235369:android:e01618773125e699",
+        "mobilesdk_app_id": "1:945301165668:android:bef1595f6a75e1e55df171",
         "android_client_info": {
-          "package_name": "com.developer.medicento.salesappmedicento"
+          "package_name": "com.medicento.admin"
         }
       },
       "oauth_client": [
         {
-          "client_id": "558427235369-f3m27o1tnp3pnnhsru0aao4to3807mh6.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.developer.medicento.salesappmedicento",
-            "certificate_hash": "4b9835718f6ef24ddfed9e06abc35dd3a323f2fe"
-          }
-        },
-        {
-          "client_id": "558427235369-ulafikk9l0ej6th39df52asu5ob8q1jk.apps.googleusercontent.com",
+          "client_id": "945301165668-pu0t74p54fu2vph2e7p2floc7atp0uvj.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyD2NgxxyBqHndwr51d24lMyfnEMNxggiJg"
+          "current_key": "AIzaSyCDuTYX3IQ6X3DwYXcPc1ON9WJ1tYev-X8"
         }
       ],
       "services": {
-        "analytics_service": {
-          "status": 1
-        },
         "appinvite_service": {
-          "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "558427235369-ulafikk9l0ej6th39df52asu5ob8q1jk.apps.googleusercontent.com",
+              "client_id": "945301165668-pu0t74p54fu2vph2e7p2floc7atp0uvj.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945301165668:android:99014e9d8bf20033",
+        "android_client_info": {
+          "package_name": "com.medicento.retailerappmedi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945301165668-nb94ldtoqid5es8h26bo9rci09j9nek3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.medicento.retailerappmedi",
+            "certificate_hash": "841ae901f86aea4a9a3851a619ce33b6bfb54a69"
+          }
         },
-        "ads_service": {
-          "status": 2
+        {
+          "client_id": "945301165668-7thu4smfsdnosi7gre882d0v4q4nnjib.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.medicento.retailerappmedi",
+            "certificate_hash": "c78211f9bafeb25cd86bbf89c2664503d225e0f0"
+          }
+        },
+        {
+          "client_id": "945301165668-pu0t74p54fu2vph2e7p2floc7atp0uvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDuTYX3IQ6X3DwYXcPc1ON9WJ1tYev-X8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945301165668-pu0t74p54fu2vph2e7p2floc7atp0uvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:945301165668:android:f258c6d449fa04275df171",
+        "android_client_info": {
+          "package_name": "com.salesappmedicento"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "945301165668-pu0t74p54fu2vph2e7p2floc7atp0uvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDuTYX3IQ6X3DwYXcPc1ON9WJ1tYev-X8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "945301165668-pu0t74p54fu2vph2e7p2floc7atp0uvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

@@ -4,7 +4,7 @@
             "outputFile": "/Users/apple/Desktop/AndroidApps/SalesAppMedicentoApk/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
-                    "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/62ff1d6f6622741cfaa578d7bc384424/res/values-en-rCA/values-en-rCA.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c4f8fac369b2e80f9c8c6ae02e20d268/res/values-en-rCA/values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

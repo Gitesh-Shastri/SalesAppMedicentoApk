@@ -1,18 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.developer.medicento.salesappmedicento"
-    android:versionCode="2"
-    android:versionName="1.0.1" >
+    package="com.salesappmedicento"
+    android:versionCode="11"
+    android:versionName="1.0.7" >
 
     <uses-sdk
         android:minSdkVersion="21"
-        android:targetSdkVersion="27" />
+        android:targetSdkVersion="28" />
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+
+    <permission
+        android:name="com.salesappmedicento.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.medicento.admin.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
     <uses-feature
         android:glEsVersion="0x00020000"
@@ -22,10 +30,25 @@
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_new_full"
         android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
         android:roundIcon="@mipmap/ic_launcher_new_full_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.developer.medicento.salesappmedicento.actvity.MainActivity" >
+        <service
+            android:name="com.salesappmedicento.FetchMedicineService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name="com.salesappmedicento.actvity.MedicineSelectionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.salesappmedicento.actvity.PharmacySelectionActivity"
+            android:launchMode="singleInstance"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.salesappmedicento.actvity.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -34,53 +57,99 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.developer.medicento.salesappmedicento.actvity.RegisterActivity"
+            android:name="com.salesappmedicento.actvity.RegisterActivity"
             android:label="Sales Person Registration" />
         <activity
-            android:name="com.developer.medicento.salesappmedicento.NewPharmacy"
+            android:name="com.salesappmedicento.NewPharmacy"
             android:label="Add new Pharmacy"
-            android:parentActivityName="com.developer.medicento.salesappmedicento.actvity.PlaceOrderNewActivity" />
+            android:parentActivityName="com.salesappmedicento.actvity.PharmacySelectionActivity" />
         <activity
-            android:name="com.developer.medicento.salesappmedicento.SalesPersonDetails"
+            android:name="com.salesappmedicento.SalesPersonDetails"
             android:label="My Profile"
-            android:parentActivityName="com.developer.medicento.salesappmedicento.actvity.PlaceOrderNewActivity" />
+            android:parentActivityName="com.salesappmedicento.actvity.PharmacySelectionActivity" />
         <activity
-            android:name="com.developer.medicento.salesappmedicento.actvity.SignInActivity"
-            android:label="Sign In"
-            android:parentActivityName="com.developer.medicento.salesappmedicento.actvity.PlaceOrderNewActivity" />
+            android:name="com.salesappmedicento.actvity.SignInActivity"
+            android:label="Sign In" />
         <activity
-            android:name="com.developer.medicento.salesappmedicento.NewArea"
+            android:name="com.salesappmedicento.NewArea"
             android:label="Add new Area"
-            android:parentActivityName="com.developer.medicento.salesappmedicento.actvity.PlaceOrderNewActivity" />
+            android:parentActivityName="com.salesappmedicento.actvity.PharmacySelectionActivity" />
         <activity
-            android:name="com.developer.medicento.salesappmedicento.actvity.Recentorder"
+            android:name="com.salesappmedicento.actvity.Recentorder"
             android:label="Recent Order"
-            android:parentActivityName="com.developer.medicento.salesappmedicento.actvity.ParticularTabDetailsActivity" />
+            android:parentActivityName="com.salesappmedicento.actvity.ParticularTabDetailsActivity" />
         <activity
-            android:name="com.developer.medicento.salesappmedicento.actvity.PlaceOrderNewActivity"
+            android:name="com.salesappmedicento.actvity.PlaceOrderNewActivity"
             android:label="Sales App Medicento"
             android:launchMode="singleInstance"
             android:screenOrientation="portrait"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
-        <activity android:name="com.developer.medicento.salesappmedicento.pharmacyRegister" />
-        <activity android:name="com.developer.medicento.salesappmedicento.recover" />
-        <activity
-            android:name="com.developer.medicento.salesappmedicento.StatsActivity"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.developer.medicento.salesappmedicento.demoActivity" />
+        <activity android:name="com.salesappmedicento.pharmacyRegister" />
+        <activity android:name="com.salesappmedicento.recover" />
         <activity
-            android:name="com.developer.medicento.salesappmedicento.actvity.ParticularTabDetailsActivity"
+            android:name="com.salesappmedicento.StatsActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.salesappmedicento.demoActivity" />
+        <activity
+            android:name="com.salesappmedicento.actvity.ParticularTabDetailsActivity"
             android:label="My Orders"
-            android:parentActivityName="com.developer.medicento.salesappmedicento.actvity.PlaceOrderNewActivity" />
+            android:parentActivityName="com.salesappmedicento.actvity.PharmacySelectionActivity" />
         <activity
-            android:name="com.developer.medicento.salesappmedicento.actvity.ParticularOrderDetails"
+            android:name="com.salesappmedicento.actvity.ParticularOrderDetails"
             android:label="Order Details"
-            android:parentActivityName="com.developer.medicento.salesappmedicento.actvity.Recentorder" />
+            android:parentActivityName="com.salesappmedicento.actvity.Recentorder" />
         <activity
-            android:name="com.developer.medicento.salesappmedicento.actvity.OrderConfirmed"
+            android:name="com.salesappmedicento.actvity.OrderConfirmed"
             android:label="Order Placed"
-            android:parentActivityName="com.developer.medicento.salesappmedicento.actvity.PlaceOrderNewActivity" />
+            android:parentActivityName="com.salesappmedicento.actvity.PharmacySelectionActivity" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_launcher_background" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorPrimary" />
+
+        <service
+            android:name="com.salesappmedicento.MyFireBaseInstanceService"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.firebase.components.ComponentDiscoveryService"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <receiver
+            android:name="com.salesappmedicento.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.boloindya.boloindya" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"
@@ -88,13 +157,6 @@
             android:launchMode="singleInstance"
             android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
-        <service android:name="com.google.firebase.components.ComponentDiscoveryService" >
-            <meta-data
-                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-                android:value="com.google.firebase.components.ComponentRegistrar" />
-        </service>
-
         <activity
             android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
             android:excludeFromRecents="true"
@@ -109,9 +171,29 @@
             android:exported="true"
             android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
 
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.developer.medicento.salesappmedicento.firebaseinitprovider"
+            android:authorities="com.salesappmedicento.firebaseinitprovider"
             android:exported="false"
             android:initOrder="100" />
 

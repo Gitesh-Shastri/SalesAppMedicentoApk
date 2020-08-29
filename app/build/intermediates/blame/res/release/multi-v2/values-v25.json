@@ -4,7 +4,7 @@
             "outputFile": "/Users/apple/Desktop/AndroidApps/SalesAppMedicentoApk/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-v25/values-v25.xml",
             "map": [
                 {
-                    "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/62ff1d6f6622741cfaa578d7bc384424/res/values-v25/values-v25.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c4f8fac369b2e80f9c8c6ae02e20d268/res/values-v25/values-v25.xml",
                     "from": {
                         "startLines": "2,3,4,6",
                         "startColumns": "4,4,4,4",

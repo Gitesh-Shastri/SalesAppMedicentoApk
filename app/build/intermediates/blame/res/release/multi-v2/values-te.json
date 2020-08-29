@@ -4,41 +4,7 @@
             "outputFile": "/Users/apple/Desktop/AndroidApps/SalesAppMedicentoApk/app/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-te/values-te.xml",
             "map": [
                 {
-                    "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/62ff1d6f6622741cfaa578d7bc384424/res/values-te/values-te.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,219,328,439,529,634,759,841,923,1007,1120,1228,1327,1438,1540,1657,1823,1924",
-                        "endColumns": "113,108,110,89,104,124,81,81,83,112,107,98,110,101,116,165,100,81",
-                        "endOffsets": "214,323,434,524,629,754,836,918,1002,1115,1223,1322,1433,1535,1652,1818,1919,2001"
-                    },
-                    "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,37",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,219,328,439,529,634,759,841,923,1007,1120,1228,1327,1438,1540,1657,1823,4601",
-                        "endColumns": "113,108,110,89,104,124,81,81,83,112,107,98,110,101,116,165,100,81",
-                        "endOffsets": "214,323,434,524,629,754,836,918,1002,1115,1223,1322,1433,1535,1652,1818,1919,4678"
-                    }
-                },
-                {
-                    "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/94e68ba992614a839843d0a590afce30/res/values-te/values-te.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "38",
-                        "startColumns": "4",
-                        "startOffsets": "4683",
-                        "endColumns": "100",
-                        "endOffsets": "4779"
-                    }
-                },
-                {
-                    "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/63c205816724b51f9a4bfc113da8b1a0/res/values-te/values.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/8f63ca6a0cccc14caa02fb2c27b7dc97/res/values-te/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -55,7 +21,41 @@
                     }
                 },
                 {
-                    "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/4c2bf9668e01582a0be8c3fced82a94e/res/values-te/values.xml",
+                    "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/c4f8fac369b2e80f9c8c6ae02e20d268/res/values-te/values-te.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,219,328,439,529,634,759,841,923,1007,1120,1228,1327,1438,1540,1657,1823,1924",
+                        "endColumns": "113,108,110,89,104,124,81,81,83,112,107,98,110,101,116,165,100,81",
+                        "endOffsets": "214,323,434,524,629,754,836,918,1002,1115,1223,1322,1433,1535,1652,1818,1919,2001"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,38",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,219,328,439,529,634,759,841,923,1007,1120,1228,1327,1438,1540,1657,1823,4706",
+                        "endColumns": "113,108,110,89,104,124,81,81,83,112,107,98,110,101,116,165,100,81",
+                        "endOffsets": "214,323,434,524,629,754,836,918,1002,1115,1223,1322,1433,1535,1652,1818,1919,4783"
+                    }
+                },
+                {
+                    "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/firebase-messaging-17.3.4.aar/082096a4d9273563e1667899475a993a/res/values-te/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "100",
+                        "endOffsets": "305"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4601",
+                        "endColumns": "104",
+                        "endOffsets": "4701"
+                    }
+                },
+                {
+                    "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/8bf9aade40272b8ee5fb1065712bb283/res/values-te/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -69,6 +69,23 @@
                         "startOffsets": "1924,2036,2222,2354,2471,2667,2794,2929,3257,3465,3579,3763,3893,4103,4296,4390,4490",
                         "endColumns": "111,185,131,116,195,126,134,128,207,113,183,129,209,192,93,99,110",
                         "endOffsets": "2031,2217,2349,2466,2662,2789,2924,3053,3460,3574,3758,3888,4098,4291,4385,4485,4596"
+                    }
+                },
+                {
+                    "source": "/Users/apple/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/23b534af43338ebf0b1349bb15cb0963/res/values-te/values-te.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "39",
+                        "startColumns": "4",
+                        "startOffsets": "4788",
+                        "endColumns": "100",
+                        "endOffsets": "4884"
                     }
                 }
             ]
